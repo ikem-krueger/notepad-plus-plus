@@ -409,17 +409,10 @@ static const std::pair<int, int> tabContextMenuItemPos[] =
     {4,   4},   // 21: Open in Default Viewer
     {1,   3},   // 22: Close ALL Unchanged
     {4,   2},   // 23: Open Containing Folder as Workspace
-    {15,  0},   // 24: Apply Color
-    {15,  1},   // 25: Apply Color
-    {15,  2},   // 26: Apply Color
-    {15,  3},   // 27: Apply Color
-    {15,  4},   // 28: Apply Color
-    {15,  5},   // 29: Remove Color
     {1,  -1},   // 30: Close Multiple Tabs
     {4,  -1},   // 31: Open into
     {13, -1},   // 32: Copy to Clipboard
     {14, -1},   // 33: Move Document
-    {15, -1},   // Apply Color to Tab
 
     {-1, -1},   //-------End
 };

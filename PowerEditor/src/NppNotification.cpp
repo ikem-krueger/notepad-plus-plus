@@ -548,12 +548,6 @@ BOOL Notepad_plus::notify(SCNotification *notification)
 				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_CLONE_TO_ANOTHER_VIEW, TEXT("Clone to Other View"), TEXT("Move Document")));
 				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_GOTO_NEW_INSTANCE, TEXT("Move to New Instance"), TEXT("Move Document")));
 				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_LOAD_IN_NEW_INSTANCE, TEXT("Open in New Instance"), TEXT("Move Document")));
-				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_TAB_COLOUR_1, TEXT("Apply Color 1"), TEXT("Apply Color to Tab")));
-				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_TAB_COLOUR_2, TEXT("Apply Color 2"), TEXT("Apply Color to Tab")));
-				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_TAB_COLOUR_3, TEXT("Apply Color 3"), TEXT("Apply Color to Tab")));
-				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_TAB_COLOUR_4, TEXT("Apply Color 4"), TEXT("Apply Color to Tab")));
-				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_TAB_COLOUR_5, TEXT("Apply Color 5"), TEXT("Apply Color to Tab")));
-				itemUnitArray.push_back(MenuItemUnit(IDM_VIEW_TAB_COLOUR_NONE, TEXT("Remove Color"), TEXT("Apply Color to Tab")));
 				// IMPORTANT: If list above is modified, you have to change the value of tabContextMenuItemPos[] in localization.cpp file
 
 				_tabPopupMenu.create(_pPublicInterface->getHSelf(), itemUnitArray);
